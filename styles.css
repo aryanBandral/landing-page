@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #1F2937;
+    padding: 30px;
+    color: white;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.navbar.logo {
+    display: inline-block;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+.navbar ul {
+    list-style-type: none;
+    float: right;
+}
+
+.navbar ul li {
+    float: right;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero-container {
+    background-color: #f0f0f0;
+    padding: 50px;
+    text-align: center;
+}
+
+.hero-text h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero-text h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    margin-bottom: 20px;
+}
+
+.hero-button.contact-hero {
+    display: inline-block;
+    background-color: #1F2937;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.hero-button.contact-hero:hover {
+    background-color: #0F1621;
+}
+
+.information {
+    background-color: #ffffff;
+    padding: 50px;
+    text-align: center;
+}
+
+.information-heading h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.skill {
+    flex: 1;
+}
+
+.skill img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.quote {
+    background-color: #f0f0f0;
+    padding: 50px;
+    text-align: center;
+}
+
+.quote-text {
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.quote-name {
+    font-weight: bold;
+}
+
+.contact {
+    background-color: #1F2937;
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+.contact h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    margin-bottom: 20px;
+}
+
+.contact-button a {
+    background-color: #ffffff;
+    color: #1F2937;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.contact-button a:hover {
+    background-color: #e0e0e0;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
